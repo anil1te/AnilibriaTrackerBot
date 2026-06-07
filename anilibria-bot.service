@@ -1,0 +1,15 @@
+[Unit]
+Description=Anilibria Auto-Downloader Bot
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/haze/ani/anilibria-bot
+ExecStart=/home/haze/ani/anilibria-bot/anilibria-bot
+Restart=always
+RestartSec=5
+EnvironmentFile=/home/haze/ani/anilibria-bot/.env
+
+[Install]
+WantedBy=multi-user.target

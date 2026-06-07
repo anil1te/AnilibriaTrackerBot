@@ -1,0 +1,14 @@
+# Binaries
+anilibria-bot
+
+# Environment variables
+.env
+
+# Database
+anilibria.db
+
+# Cache
+.cache/
+
+# Scratch files
+scratch.go
